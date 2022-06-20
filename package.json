@@ -1,0 +1,19 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "node ./src/upload.js",
+    "upload:http": "node ./src/upload_http.js"
+  },
+  "dependencies": {
+    "debug": "4.3.3",
+    "axios": "0.24.0",
+    "request": "2.88.2",
+    "path": "0.12.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
